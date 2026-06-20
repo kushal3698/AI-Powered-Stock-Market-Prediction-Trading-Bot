@@ -6,3 +6,5 @@ streamlit
 requests
 shap
 matplotlib
+plotly
+nltk
