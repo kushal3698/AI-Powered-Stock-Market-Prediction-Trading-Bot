@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Project data files (keep directory structure but ignore csv files)
+data/raw/*.csv
+data/processed/*.csv
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts and binary checkpoints
+models/*.pkl
+models/*.npy
+models/*.keras
+models/*.png
+!models/.gitkeep
+
+# Streamlit config
+.streamlit/
